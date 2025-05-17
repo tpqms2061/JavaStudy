@@ -1,0 +1,15 @@
+package Method;
+
+public class MethodCasting2 {
+
+    public static void main(String[] args) {
+        int number   = 100;
+        changeNumber(number);
+    }
+
+    public static void changeNumber(double n) {
+        System.out.println("숫자: "+ n);
+    }
+
+
+}
