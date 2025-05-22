@@ -1,8 +1,11 @@
 package Class1;
 
+import access.a.PublicClass;
+
 public class ClassStart2 {
 
     public static void main(String[] args) {
+
 
         String studentName[] = {"학생1", "학생2", "학생3"};
         int studentAge[] = {15 , 16, 17};

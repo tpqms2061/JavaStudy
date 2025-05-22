@@ -1,10 +1,12 @@
 package oop1;
 
 public class MusicPlayer {
+
+    //필드 정의
     int volume =0;
     boolean isOn = false;
 
-
+    //메소드 정의
     void on() {
         isOn = true;
         System.out.println("음악 플레이어를 시작합니다");
@@ -23,9 +25,7 @@ public class MusicPlayer {
         volume--;
         System.out.println("음악 플레이어 볼륨:"+ volume);
     }
-
-
-     void showStatus() {
+    void showStatus() {
         System.out.println("음악 플레이어 상태 확인");
         if (isOn) {
             System.out.println("음악 플레이어 ON ,볼륨:" + volume);
