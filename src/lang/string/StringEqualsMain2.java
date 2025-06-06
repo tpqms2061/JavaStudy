@@ -16,7 +16,7 @@ public class StringEqualsMain2 {
     private static boolean isSame(String x, String y) {
 
         //return x==y; //new String 이 올지 문자열이 나올지 모르니까 equals로 해야됨
-        return x.equals(y)
+        return x.equals(y);
 
     }
 }
